@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Player_Spawn
+  - Scene_Change
   layers:
   - Default
   - TransparentFX
