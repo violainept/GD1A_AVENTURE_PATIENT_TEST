@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player_Spawn : MonoBehaviour
+public class Spawn_Player : MonoBehaviour
 {
     public int spawnPointRef;
     public Player_SceneChange getIndex;
