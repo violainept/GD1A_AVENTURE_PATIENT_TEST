@@ -8,7 +8,7 @@ public class Collectible_Money : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            collision.gameObject.GetComponent<Player_Money>().CollectMoney();
+            collision.gameObject.GetComponent<Player_Controller>().CollectMoney();
             Destroy(collision.gameObject);
         }
     }
