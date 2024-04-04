@@ -23,7 +23,7 @@ public class Player_Controller : MonoBehaviour
         PlayerMovements();
     }
 
-    // Movements //
+    //////////////// Movements ////////////////
     private void PlayerMovements()
     {
         horizontal = Input.GetAxisRaw("Horizontal");
@@ -32,7 +32,7 @@ public class Player_Controller : MonoBehaviour
         transform.Translate(Vector3.up * vertical * _speed * Time.deltaTime);
     }
 
-    // Collectibles // 
+    //////////////// Collectibles //////////////// 
     public void CollectMoney()
     {
         money += 1;

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Player_SceneChange : MonoBehaviour
+public class Player_Checks_Scene : MonoBehaviour
 {
     public int previousSceneIndex;
 
